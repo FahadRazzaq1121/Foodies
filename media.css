@@ -1,0 +1,128 @@
+@media(max-width:1200Px){
+    .Gallery_containers{
+        display: block;
+    }
+    .gallery_images{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media(max-width:990px){
+    .hero,
+    .aboutus_grid,
+    .Whatson_imgs_Contect{
+        display: block;
+    }
+    .hero{
+        padding: 1.5rem;
+    }
+    .Left_div h1{
+        font-size:4rem;
+        text-align: center;
+    }
+    .Left_div p,
+    .Right_div p{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .Reservation_table{
+        padding: 3rem;
+        background-color: #0d0c11;
+    }
+    .input_field_forReserveTable{
+        column-gap: 10px;
+
+    }
+    .Product_details_container,
+    .Footer_container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        row-gap: 1rem;
+        column-gap: 1rem;
+    }
+    .AboutUS_Container{
+        padding: 2rem;
+    }
+    .delivered-meals{
+        margin: 2rem;
+    }
+}
+
+@media(max-width:540px){
+    .buton{
+        justify-content: start;
+        gap:10px;
+    }
+    .heaidng-primary,
+    .Testimonials_headings h1,
+    .Reservation_heading h1 {
+        font-size: 2rem;
+      }
+    .Heading_1{
+        font-size: 2rem;
+        padding: 10px
+      }
+    .hero-description {
+        font-size: 14px;
+      }
+    .buton .btn--hero{
+        padding: 10px 20px ;
+        margin-top: 1rem;
+    }
+    .delivered-meals {
+       display: block;
+       padding-top: 10px;
+      }
+    .Left_div h1{
+        font-size:2rem;
+    }
+    .Left_div p,
+    .Right_div p{
+        font-size: 14px;
+    }
+    .content h2{
+        font-size: 1.5rem;
+    }
+    .content h3, .content p{
+        font-size: 14px;
+    }
+    .Testimonials_headings h4{
+        padding-top:1rem ;
+    }
+    .Customer_feedback{
+        display: block;
+    }
+    .gallery_images{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .input_field_forReserveTable{
+        display: block;
+    }
+    .Product_details_container{
+        display: block;
+        padding: 1.5rem;
+    }
+    .Map_container{
+        padding: 1.5rem;
+    }
+    .Footer_container{
+        display: block;
+    }
+    .Whaton_container{
+        padding: 10px 0;
+    }
+    .Content_Box{
+        border-bottom: 1px solid rgb(51, 51, 51);
+    }
+    .Content_Box:last-child{
+        border-bottom: none;
+    }
+    .Footer_Main_container{
+        padding: 1.5rem;
+    }
+    .logo a{
+        padding-left: 10px;
+}
+}
